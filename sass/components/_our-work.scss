@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: center;
 
-  color: var(--hero-text-color);
+  color: $hero-text-color;
 
   bottom: 0;
   left: 0;
@@ -35,7 +35,7 @@
 
 .work-section {
   margin-bottom: 50px;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 
   font-style: normal;
   font-weight: 700;

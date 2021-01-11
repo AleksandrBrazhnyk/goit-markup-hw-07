@@ -375,7 +375,7 @@ a,
   top: 0;
   left: 0;
   min-height: 80px;
-  background-color: #fff;
+  background-color: #ffffff;
   /* z-index: 1; */
   border-bottom: 1px solid #ececec;
 }
@@ -391,7 +391,7 @@ a,
 }
 
 .logo {
-  color: var(--accent-color);
+  color: #2196f3;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -455,7 +455,7 @@ a,
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  color: var(--hero-text-color);
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -481,7 +481,7 @@ a,
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-  color: var(--primary-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -490,7 +490,7 @@ a,
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav .link.current::after {
@@ -507,7 +507,7 @@ a,
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 /* особенности */
@@ -597,7 +597,7 @@ a,
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--hero-text-color);
+  color: #ffffff;
   bottom: 0;
   left: 0;
   margin-top: 0;
@@ -613,7 +613,7 @@ a,
 
 .work-section {
   margin-bottom: 50px;
-  color: var(--primary-text-color);
+  color: #212121;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -641,7 +641,7 @@ a,
 }
 
 .content-team {
-  background-color: var(--hero-text-color);
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding: 30px 32px;
@@ -650,7 +650,7 @@ a,
 .team-bg {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--portfolio-bg-buttons);
+  background-color: #f5f4fa;
 }
 
 .team-section {
@@ -663,7 +663,7 @@ a,
 
 .team-title {
   margin-bottom: 16px;
-  color: var(--title-text-color);
+  color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -1107,7 +1107,7 @@ textarea {
 }
 
 .product-title {
-  color: var(--title-text-color);
+  color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -1115,7 +1115,7 @@ textarea {
 }
 
 .content-portfolio {
-  background-color: var(--hero-text-color);
+  background-color: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   padding: 20px 24px;
@@ -1169,7 +1169,7 @@ textarea {
   width: 100%;
   height: 100%;
   padding: 63px 24px;
-  color: var(--hero-text-color);
+  color: #ffffff;
   font-size: 18px;
   line-height: 1.56;
   transform: translateY(100%);
@@ -1201,7 +1201,7 @@ textarea {
 .form-field .form-text-footer {
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--hero-text-color);
+  color: #ffffff;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -1227,7 +1227,7 @@ textarea {
   margin-bottom: 0;
   left: 0;
   top: 0;
-  background: var(--hero-footer-bg);
+  background: #2f303a;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -1259,8 +1259,8 @@ textarea {
   text-align: center;
   border: 1px solid transparent;
   padding: 10px 10px 10px 29px;
-  color: var(--hero-text-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
