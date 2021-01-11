@@ -1,11 +1,4 @@
 @charset "UTF-8";
-body {
-  padding-top: 80px;
-  color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-}
-
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -320,6 +313,13 @@ a,
 /* цвет фона основной секции и футера #2F303A */
 /* цвет фона чем мы занимаемся #2F303A */
 /* цвет фона наша команда #F5F4FA */
+body {
+  padding-top: 80px;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
 /* button */
 .button {
   color: #2196f3;
@@ -399,7 +399,7 @@ a,
 
 .logo {
   color: #2196f3;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
