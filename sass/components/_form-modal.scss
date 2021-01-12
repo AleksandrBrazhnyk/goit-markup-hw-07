@@ -31,21 +31,21 @@ textarea {
   height: 40px;
   left: 0;
   top: 0;
-  font: inherit;
   padding-left: 42px;
   margin-bottom: 10px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
   outline: none;
+  font: inherit;
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form-field input:focus {
-  border: 1px solid $accent-color;
-  box-sizing: border-box;
-  border-radius: 4px;
+  &:focus {
+    border: 1px solid $accent-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
 }
 
 .form-field:focus-within > .icon-form {

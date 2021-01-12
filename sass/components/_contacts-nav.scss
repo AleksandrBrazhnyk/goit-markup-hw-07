@@ -15,15 +15,15 @@
   fill: $title-text-color;
 }
 
-.contacts-nav a:hover,
-.contacts-nav a:focus {
-  color: $accent-color;
-  fill: $accent-color;
-}
-
 .contacts-nav {
   display: flex;
   margin-left: auto;
+
+  & a:hover,
+  & a:focus {
+    color: $accent-color;
+    fill: $accent-color;
+  }
 }
 
 .contacts-nav .item:not(:first-child) {

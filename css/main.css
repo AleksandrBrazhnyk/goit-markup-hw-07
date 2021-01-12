@@ -267,6 +267,13 @@ summary {
   display: list-item;
 }
 
+body {
+  padding-top: 80px;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
 /* утилиты */
 .container {
   width: 1200px;
@@ -313,13 +320,6 @@ a,
 /* цвет фона основной секции и футера #2F303A */
 /* цвет фона чем мы занимаемся #2F303A */
 /* цвет фона наша команда #F5F4FA */
-body {
-  padding-top: 80px;
-  color: #212121;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.03em;
-}
-
 /* button */
 .button {
   color: #2196f3;
@@ -367,8 +367,7 @@ body {
   transition: color 250ms, background-color 250ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-button button:hover,
-.portfolio-button button:focus {
+.portfolio-button button:hover, .portfolio-button button:focus {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -422,15 +421,15 @@ body {
   fill: #757575;
 }
 
+.contacts-nav {
+  display: flex;
+  margin-left: auto;
+}
+
 .contacts-nav a:hover,
 .contacts-nav a:focus {
   color: #2196f3;
   fill: #2196f3;
-}
-
-.contacts-nav {
-  display: flex;
-  margin-left: auto;
 }
 
 .contacts-nav .item:not(:first-child) {
@@ -496,7 +495,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link.current {
+.site-nav .link .link.current {
   color: #2196f3;
 }
 
@@ -698,7 +697,7 @@ body {
   transition: background-color 250ms, fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-networks .link-icon:hover {
+.social-networks .link-icon:hover, .social-networks .link-icon:focus {
   background: #2196f3;
   fill: #ffffff;
 }
@@ -804,7 +803,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-networks .link-footer:hover {
+.social-networks .link-footer:hover, .social-networks .link-footer:focus {
   background: #2196f3;
 }
 
@@ -905,13 +904,13 @@ textarea {
   height: 40px;
   left: 0;
   top: 0;
-  font: inherit;
   padding-left: 42px;
   margin-bottom: 10px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
   outline: none;
+  font: inherit;
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
